@@ -64,59 +64,11 @@ Next.js static blog using Notion as a Content Management System (CMS). Supports 
    
    5. `Modify` **site.config.js** file in **your** forked repo.
    > 💡 NOTE. I changed **2 RED PART**
-   <img src='https://github.com/jhk0530/morethan-log/assets/6457691/3d9c0da5-92bc-4372-8752-7bfc810b4986' width = '500'>
-
    6. Move and `login` to vercel.
-   <img src='https://github.com/jhk0530/morethan-log/assets/6457691/07742ad0-4766-43b0-9ebd-5311f9711bc2' width = '500'>
-
    7. `Build` new project using **Add New...**
-   <img src='https://github.com/jhk0530/morethan-log/assets/6457691/517d46be-c9bf-4181-aaa5-e9bd2fcdc822' width = '500'>
-
    8. `Import` **your forked morethan-log repository**
-   <img src='https://github.com/jhk0530/morethan-log/assets/6457691/07742ad0-4766-43b0-9ebd-5311f9711bc2' width = '500'>
-
    9. `Add` **Environment variabes** to vercel project
-   <img src='https://github.com/jhk0530/morethan-log/assets/6457691/703b50a3-3a90-4915-ab73-1baca4c285f8' width = '500'>
-
    10. `Wait` for the deployment to complete. After the deployment is successful, you should see an image like the one below.
-   <img src='https://github.com/jhk0530/morethan-log/assets/6457691/a7d72caa-4354-4f81-9577-c773faeed7c6' width = '500'>
-
    🥳 Congratulations. Now check out your blog
-   
-   <img src='https://github.com/jhk0530/morethan-log/assets/6457691/3876a273-a270-47ef-a2ad-663519d9e537' width = '500'>
 
 </details>
-
-## Contributing
-
-Check out the [Contributing Guide](.github/CONTRIBUTING.md).
-
-### Contributors
-
-<!--
-Contributors template:
-<a href="https://github.com/{username}"><img src="{src}" width="50px" alt="{username}" /></a>&nbsp;&nbsp;
--->
-
-<a href="https://github.com/morethanmin/morethan-log/graphs/contributors">
-<img src="https://contrib.rocks/image?repo=morethanmin/morethan-log" />
-</a>
-
-## Support
-
-morethan-log is an MIT-licensed open source project. It can grow thanks to the sponsors and support from the amazing backers.
-
-### Sponsors
-
-<!--
-Sponsors template:
-<a href="https://github.com/{uesrname}"><img src="{src}" width="50px" alt="{username}" /></a>&nbsp;&nbsp;
--->
-
-<p>
-<a href="https://github.com/siyeons"><img src="https://avatars.githubusercontent.com/u/35549653?v=4" width="50px" alt="siyeons" /></a>&nbsp;&nbsp;
-</p>
-
-## License
-
-The [MIT License](LICENSE).
