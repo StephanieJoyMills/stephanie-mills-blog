@@ -40,7 +40,7 @@ Next.js static blog using Notion as a Content Management System (CMS). Supports 
    - `NEXT_PUBLIC_GOOGLE_SITE_VERIFICATION` : For Google search console Plugin.
    - `NEXT_PUBLIC_NAVER_SITE_VERIFICATION` : For Naver search advisor Plugin.
 
-## 10 Steps to build your own morethan-log (by 23.06.23)
+## 10 Steps to build  (by 23.06.23)
 
 <details>
    <summary> Click to see guide </summary>
@@ -64,7 +64,7 @@ Next.js static blog using Notion as a Content Management System (CMS). Supports 
    > 💡 NOTE. I changed **2 RED PART**
    6. Move and `login` to vercel.
    7. `Build` new project using **Add New...**
-   8. `Import` **your forked morethan-log repository**
+   8. `Import` **your forked repository**
    9. `Add` **Environment variabes** to vercel project
    10. `Wait` for the deployment to complete. After the deployment is successful, you should see an image like the one below.
    🥳 Congratulations. Now check out your blog
