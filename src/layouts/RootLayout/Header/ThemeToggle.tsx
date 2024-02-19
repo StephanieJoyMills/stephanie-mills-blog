@@ -1,7 +1,8 @@
 import styled from "@emotion/styled"
 import React from "react"
-import { Emoji } from "src/components/Emoji"
 import useScheme from "src/hooks/useScheme"
+import { DarkModeSwitch } from 'react-toggle-dark-mode';
+
 
 type Props = {}
 
@@ -12,9 +13,21 @@ const ThemeToggle: React.FC<Props> = () => {
     setScheme(scheme === "light" ? "dark" : "light")
   }
 
+  const toggleDarkMode = (checked: boolean) => {
+    setScheme(checked === true ? "dark" : "light")
+  };
+
+
   return (
     <StyledWrapper onClick={handleClick}>
-      <Emoji>{scheme === "light" ? "☀️" : "🌙"}</Emoji>
+      <DarkModeSwitch
+        style={{ marginBottom: '0rem'}}
+        checked={scheme === "light" ? false : true}
+        onChange={toggleDarkMode}
+        size={22}
+        moonColor={"#FFB81C"}
+        sunColor={"#f6b113"}
+      />
     </StyledWrapper>
   )
 }

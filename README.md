@@ -70,3 +70,10 @@ Next.js static blog using Notion as a Content Management System (CMS). Supports 
    🥳 Congratulations. Now check out your blog
 
 </details>
+
+# Pushing to Product
+Make sure package.json:
+"mermaid": "10.0.0-rc.3"
+(for dev this is changed to )
+"mermaid": "^9.3.0",
+
