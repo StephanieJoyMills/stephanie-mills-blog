@@ -23,7 +23,7 @@ const CustomError: React.FC<Props> = () => {
           <div>4</div>
         </div>
         <div className="text">Whoops! The page you were looking for does not exist</div>
-        <div className="text-small">(Unless you were looking for a picture of my cat. If that's the case, it definitely exists and you definitely found it)</div>
+        <div className="text-small">(Unless you were looking for a picture of my cat. If that&apos;s the case, it definitely exists and you definitely found it!)</div>
         <div className="home"> <a onClick={() => router.push("/")}>Take me back to home →</a></div>
       </div>
     </StyledWrapper>
