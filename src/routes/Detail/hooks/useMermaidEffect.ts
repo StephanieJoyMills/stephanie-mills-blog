@@ -12,14 +12,11 @@ const useMermaidEffect = () => {
     if (!elements) return
 
     for (let i = 0; i < elements.length; i++) {
-      mermaid.render(
-        "mermaid" + i,
-        elements[i].textContent || "",
-        (svgCode: string) => {
-          elements[i].innerHTML = svgCode
-        }
-      )
+      const element = elements[i];
+      const graphDefinition = element.textContent || "";
+      mermaid.render("mermaid" + i, graphDefinition, element);
     }
+    
   }, [])
 
   return
