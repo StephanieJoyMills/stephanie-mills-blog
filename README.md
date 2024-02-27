@@ -77,3 +77,10 @@ Make sure package.json:
 (for dev this is changed to )
 "mermaid": "^9.3.0",
 
+
+
+    "mermaid": "^9.3.0",
+    "next": "^13.4.9",
+
+# Blog Updates
+Feb 27, 2024
